@@ -1,0 +1,290 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.9) (preloaded format=xelatex 2023.12.24)  28 FEB 2025 15:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/jdbar/OneDrive/Escritorio/Cancn/source.tex
+(c:/Users/jdbar/OneDrive/Escritorio/Cancn/source.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2023/08/29 v3.93 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen149
+\l@unhyphenated=\language79
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
+\g__graphics_track_int=\count196
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count197
+\g__pdf_backend_annotation_int=\count198
+\g__pdf_backend_link_int=\count199
+))
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count266
+\l__fontspec_language_int=\count267
+\l__fontspec_strnum_int=\count268
+\l__fontspec_tmp_int=\count269
+\l__fontspec_tmpa_int=\count270
+\l__fontspec_tmpb_int=\count271
+\l__fontspec_tmpc_int=\count272
+\l__fontspec_em_int=\count273
+\l__fontspec_emdef_int=\count274
+\l__fontspec_strong_int=\count275
+\l__fontspec_strongdef_int=\count276
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Program Files\MiKTeX\tex/latex/songs\songs.sty
+Package: songs 2018/09/12 v3.1 Songs package
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+\SB@dimen=\dimen153
+\SB@dimenii=\dimen154
+\SB@dimeniii=\dimen155
+\SB@dimeniv=\dimen156
+\SB@box=\box52
+\SB@boxii=\box53
+\SB@boxiii=\box54
+\SB@toks=\toks20
+\SB@cnt=\count277
+\SB@cntii=\count278
+\SB@skip=\skip50
+\SB@envbox=\box55
+\c@songnum=\count279
+\c@versenum=\count280
+\versesep=\skip51
+\afterpreludeskip=\skip52
+\beforepostludeskip=\skip53
+\baselineadj=\skip54
+\idxheadwidth=\skip55
+\songnumwidth=\skip56
+\versenumwidth=\skip57
+\cbarwidth=\skip58
+\sbarheight=\skip59
+\vvpenalty=\count281
+\ccpenalty=\count282
+\vcpenalty=\count283
+\cvpenalty=\count284
+\brkpenalty=\count285
+\spenalty=\count286
+\minfrets=\count287
+\SB@colwidth=\dimen157
+\SB@songbox=\box56
+\SB@numcols=\count288
+\SB@colnum=\count289
+\SB@colbox=\box57
+\SB@pgbox=\box58
+\SB@mrkbox=\box59
+\SB@groupcnt=\count290
+\SB@titlelist=\toks21
+\SB@titletail=\toks22
+\SB@parindent=\dimen158
+\SB@chorusbox=\box60
+\SB@cmarkclass=\marks4
+\SB@nocmarkclass=\marks5
+\SB@grouplvl=\count291
+\SB@transposefactor=\count292
+\SB@lyric=\toks23
+\SB@numhyps=\count293
+\SB@lyricnohyp=\toks24
+\SB@lyricbox=\box61
+\SB@chordbox=\box62
+\SB@cr@=\toks25
+\SB@ctail=\toks26
+\SB@fretwidth=\skip60
+\SB@tabindent=\dimen159
+\c@SB@songsnum=\count294
+\SB@songwrites=\box63
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3785.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3785.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3785.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3785.
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))) (source.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `source.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 21.
+ (C:\Users\jdbar\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-31.2056pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=115.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
+LaTeX Font Info:    Redeclaring math accent \check on input line 21.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 21.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font) 
