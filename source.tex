@@ -11,24 +11,25 @@
 \setlength{\parindent}{0cm} %edicion de sangría
 \clubpenalty=10000 %líneas viudas NO
 \widowpenalty=10000 %líneas viudas NO
-\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry} % para establecer las medidas de los margenes
+\usepackage[top=2.5cm, bottom=2.5cm, left=1cm, right=1cm]{geometry} % para establecer las medidas de los margenes
 
 \usepackage[spanish]{babel} %Para que el idioma por defecto sea emaketitletraspañol
 \usepackage{fontspec}
 
 \usepackage[chorded]{songs}
+\newindex{canciones}{idxfile}
+% \indexsongsas{canciones}{\thesongnum} 					% Esto es para que se indique el número de canción en lugar de la página
+\indexsongsas{canciones}{\thesongnum\ Pag(\thepage)}	% Esto imprime el número de canción junto a la página en la que está
 
 \begin{document}
 	% Title
 	\maketitle
-	\tableofcontents
-	\notenamesin{La}{Si}{Do}{Re}{Mi}{Fa}{Sol} %TODO
-	\notenamesout{La}{Si}{Do}{Re}{Mi}{Fa}{Sol}%TODO
-
+	\showindex[2]{Indice}{canciones}
 
 	\input{tex/settings.tex}
-
-	\begin{songs}{}
+	
+	\songcolumns{2}
+	\begin{songs}{canciones}
 		% File containing songs that will be included
 		\input{tex/writeSongs.tex}
 	\end{songs}

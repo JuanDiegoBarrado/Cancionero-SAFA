@@ -2,15 +2,29 @@
 \noversenumbers
 \MultiwordChords
 % \renewcommand{\stitlefon}{}
-\renewcommand{\lyricfont}{\fontspec{Arial}}
-\renewcommand{\printchord}[1]{\fontspec{Arial}\small\bf #1}
+\renewcommand{\lyricfont}{
+    % \fontsize{12}{10}\selectfont
+    \fontspec{Arial}
+}
 \renewcommand{\chorusfont}{\bf}
-% \songtextfont{\ttfamily}
-%\renewcommand{\chordfont}{\slshape}
+\renewcommand{\printchord}[1]{\fontspec{Arial}\small #1}
+\versesep=16pt                          % separacion entre estrofas
+\baselineadj=+8pt plus 1pt minus 0pt   % separacion entre versos
+\renewcommand{\clineparams}{            % separación entre acorde y verso
+    \baselineskip=14pt
+    \lineskiplimit=1pt
+    \lineskip=1pt
+}
+\setlength{\parindent}{0pt}
+\spenalty=-1000
+\songpos{0}
 \setlength{\cbarwidth}{0pt}
 \setlength{\sbarheight}{0pt}
+\notenamesin{La}{Si}{Do}{Re}{Mi}{Fa}{Sol} %TODO
+\notenamesout{La}{Si}{Do}{Re}{Mi}{Fa}{Sol}%TODO
+\renewcommand{\sharpsymbol}{\#}
 
-\renewcommand\makeprelude{%
+\renewcommand\makeprelude{
     \resettitles
     {\Large\bfseries\thesongnum. \songtitle\par
     \nexttitle\foreachtitle{(\songtitle)\par}}

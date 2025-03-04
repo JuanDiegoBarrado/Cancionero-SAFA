@@ -1,6 +1,6 @@
 import os
 
-INCLUDE_SONGS_FILENAME = "../tex/writeSongs.tex"
+INCLUDE_SONGS_FILENAME = "./tex/writeSongs.tex"
 
 def include_songs_of(path):
     try:
@@ -12,4 +12,4 @@ def include_songs_of(path):
     except Exception as e:
         print(f"Error: {e}")
 
-include_songs_of('../canciones/')
+include_songs_of('./canciones/')
