@@ -19,7 +19,7 @@
                 "-xelatex",
                 "-interaction=nonstopmode",
                 "-synctex=1",
-                "-outdir=./aux/",	// compilation files folder
+                "-outdir=./build/",	// compilation files folder
                 "%DOC%"
             ]
         },
@@ -27,9 +27,9 @@
             "name": "songidx",
             "command": "texlua",
             "args": [
-                "C:/Program Files/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
-                "%DIR%/aux/idxfile.sxd", // this is the name of the index file
-                "%DIR%/aux/idxfile.sbx"	 // this is the name of the index file
+                "C:/Users/jdbar/AppData/Local/Programs/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
+                "%DIR%/build/idxfile.sxd", // this is the name of the index file
+                "%DIR%/build/idxfile.sbx"	 // this is the name of the index file
             ]
         }
     ]
