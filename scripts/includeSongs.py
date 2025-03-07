@@ -1,14 +1,38 @@
 import os
 
-INCLUDE_SONGS_FILENAME = "./tex/songslist.tex"
+GENERAL_SONGS_FILENAME = "./tex/songslist.tex"
+ACLAMACIONES_SONGS_FILENAME = "./tex/worshiplist.tex"
+
+GENERAL_SONGS_SUBFOLDER = "general"
+MISA_SONGS_SUBFOLDER = "misa"
+ACLAMACIONES_SONGS_SUBFOLDER = "aclamaciones"
 
 def include_songs_of(path):
+    pathgeneral = f"{path}/{GENERAL_SONGS_SUBFOLDER}"
+    pathmisa = f"{path}/{MISA_SONGS_SUBFOLDER}"
+    pathaclamaciones = f"{path}/{ACLAMACIONES_SONGS_SUBFOLDER}"
     try:
-        with open(INCLUDE_SONGS_FILENAME, "w", encoding="utf-8") as f:
+        with open(GENERAL_SONGS_FILENAME, "w", encoding="utf-8") as f:
             # Obtener la lista de archivos y ordenarla alfabéticamente
-            files = sorted(os.listdir(path))
+            files = sorted(os.listdir(pathgeneral))
             for file in files:
-                fullPath = os.path.join(path, file)
+                fullPath = os.path.join(f"{pathgeneral}/", file)
+                if os.path.isfile(fullPath):
+                    f.write(f'\\input{{{fullPath}}}\n')
+                    
+        with open(GENERAL_SONGS_FILENAME, "a", encoding="utf-8") as f:
+            # Obtener la lista de archivos y ordenarla alfabéticamente
+            files = sorted(os.listdir(pathmisa))
+            for file in files:
+                fullPath = os.path.join(f"{pathmisa}/", file)
+                if os.path.isfile(fullPath):
+                    f.write(f'\\input{{{fullPath}}}\n')
+                    
+        with open(ACLAMACIONES_SONGS_FILENAME, "w", encoding="utf-8") as f:
+            # Obtener la lista de archivos y ordenarla alfabéticamente
+            files = sorted(os.listdir(pathaclamaciones))
+            for file in files:
+                fullPath = os.path.join(f"{pathaclamaciones}/", file)
                 if os.path.isfile(fullPath):
                     f.write(f'\\input{{{fullPath}}}\n')
     except Exception as e:

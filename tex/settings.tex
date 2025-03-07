@@ -17,21 +17,27 @@
 }
 \setlength{\parindent}{0pt}
 % \spenalty=-1000
-\songpos{1}
+\songpos{2}
 \setlength{\cbarwidth}{0pt}
 \setlength{\sbarheight}{0pt}
 \notenamesin{La}{Si}{Do}{Re}{Mi}{Fa}{Sol} %TODO
 \notenamesout{La}{Si}{Do}{Re}{Mi}{Fa}{Sol}%TODO
 \renewcommand{\sharpsymbol}{\#}
 
+\newlength{\colwidth}
+\setlength{\colwidth}{\dimexpr(\textwidth - 1cm) / 2} % Ancho de cada columna
+\columnsep=1cm
 \renewcommand\makeprelude{
     \resettitles
     {\Large\bfseries\color{Blue}\thesongnum. \songtitle\par
     \nexttitle\foreachtitle{(\songtitle)\par}}
-    \vspace{5pt}
-    \hrule
-    \vspace{5pt}
     \extendprelude
+    % (29.7 - 2cm - 1cm) / 2
+    % \rule{8.35cm}{0.5pt}\par % Línea inferior personalizada
+    \rule{\colwidth}{0.5pt}\par % Línea inferior personalizada
 }
 
 % \sepindexesfalse % ???
+% \vspace{5pt}
+% \hrule
+% \vspace{5pt}

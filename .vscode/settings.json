@@ -4,7 +4,7 @@
     "latex-workshop.latex.recipes": [
         {
             "name": "xelatex (with index)",
-            "tools": ["xelatexmk", "canciones", "aclamaciones", "nuevas", "xelatexmk"]
+            "tools": ["xelatexmk", "canciones", "aclamaciones", "xelatexmk"]
         },
 		{
 			"name": "xelatex",
@@ -39,15 +39,6 @@
                 "C:/Users/jdbar/AppData/Local/Programs/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
                 "%DIR%/build/idxfile2.sxd", // this is the name of the index file
                 "%DIR%/build/idxfile2.sbx"	 // this is the name of the index file
-            ]
-        },
-		{
-            "name": "nuevas",
-            "command": "texlua",
-            "args": [
-                "C:/Users/jdbar/AppData/Local/Programs/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
-                "%DIR%/build/idxfile3.sxd", // this is the name of the index file
-                "%DIR%/build/idxfile3.sbx"	 // this is the name of the index file
             ]
         }
     ]
