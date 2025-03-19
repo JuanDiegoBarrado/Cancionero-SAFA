@@ -29,12 +29,21 @@
 \columnsep=1cm
 \renewcommand\makeprelude{
     \resettitles
+    \vspace{5pt}
     {\Large\bfseries\color{Blue}\thesongnum. \songtitle\par
     \nexttitle\foreachtitle{(\songtitle)\par}}
     \extendprelude
     % (29.7 - 2cm - 1cm) / 2
     % \rule{8.35cm}{0.5pt}\par % Línea inferior personalizada
     \rule{\colwidth}{0.5pt}\par % Línea inferior personalizada
+}
+
+\newcommand{\juandioff}{
+    \vspace{16pt}
+    \chordsoff
+}
+\newcommand{\juandion}{
+    \chordson
 }
 
 % \sepindexesfalse % ???
