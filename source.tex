@@ -1,0 +1,56 @@
+\documentclass[10pt,a4paper,openright]{book}
+
+%% Formateo del título del documento
+\title{\Huge Cancionero}
+\author{Pastoral SAFA}
+\date{\today}
+
+%% Formateo del estilo de escritura y de la pagina
+\pagestyle{plain}
+\setlength{\parskip}{0.35cm} 			% edicion de espaciado
+\setlength{\parindent}{0cm} 			% edicion de sangría
+\clubpenalty=10000 						% líneas viudas NO
+\widowpenalty=10000 					% líneas viudas NO
+\usepackage[top=2.5cm, bottom=2.5cm, left=1cm, right=1cm]{geometry} % para establecer las medidas de los margenes
+
+% Paquetes extra para funcionalidades adicionales
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{fontspec}
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+	urlcolor=red,
+	linkcolor=blue,
+}
+
+% Paquete del cancionero en sí
+\usepackage[chorded]{songs}
+\newindex{canciones}{idxfile}								% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
+\indexsongsas{canciones}{\thesongnum\ (Pag.\ \thepage)}		% Formatea la apriencia del índice: número de canción (página)
+\newindex{aclamaciones}{idxfile2}								% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
+\indexsongsas{aclamaciones}{\thesongnum\ (Pag.\ \thepage)}		% Formatea la apriencia del índice: número de canción (página)
+
+% Variables
+\newcommand{\mantaineremail}{\href{mailto:jdbarradodaganzo@gmail.com}{jdbarradodaganzo@gmail.com}}
+
+\begin{document}
+	% Title
+	\maketitle
+	%\tableofcontents
+	%\renewcommand{\songsection}{\section}
+
+	% Frontmatter
+	\frontmatter
+	\setlength{\parindent}{0cm} % edicion de sangría
+	\input{tex/frontmatter.tex}
+
+	% Mainmatter
+	\mainmatter
+	%\chapter{Canciones}
+	\input{tex/songsbook.tex}	
+
+	% Endmatter
+	\input{tex/backmatter.tex}
+
+\end{document}
