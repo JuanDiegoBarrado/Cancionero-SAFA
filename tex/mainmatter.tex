@@ -1,0 +1,55 @@
+% Canciones
+\input{tex/settings/settings_global.tex}
+\showindex[2]{\color{Blue}Índice de canciones}{canciones}
+\showindex[2]{\color{Mahogany}Índice de aclamaciones}{aclamaciones}
+\songcolumns{2}
+\newcounter{lastValue}
+
+\begin{songs}{canciones}
+    % File containing songs that will be included
+    \part{General}
+    \input{tex/settings/settings_general.tex}
+    \input{tex/main/generallist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{canciones}
+    \setcounter{songnum}{\thelastValue}
+    \part{Misa}
+    \input{tex/settings/settings_mass.tex}
+    \input{tex/main/masslist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{canciones}
+    \setcounter{songnum}{\thelastValue}
+    \part{Pascua}
+    \input{tex/settings/settings_pascua.tex}
+    \input{tex/main/pascualist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{canciones}
+    \setcounter{songnum}{\thelastValue}
+    \part{Hno. Gabriel}
+    \input{tex/settings/settings_gabriel.tex}
+    \input{tex/main/gabriellist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{canciones}
+    \setcounter{songnum}{\thelastValue}
+    \part{María}
+    \input{tex/settings/settings_mary.tex}
+    \input{tex/main/marylist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{canciones}
+    \setcounter{songnum}{\thelastValue}
+    \part{Navidad}
+    \input{tex/settings/settings_xmas.tex}
+    \input{tex/main/xmaslist.tex}
+    \setcounter{lastValue}{\thesongnum}
+\end{songs}
+\begin{songs}{aclamaciones}
+    \part{Aclamaciones}
+    \renewcommand{\thesongnum}{A\arabic{songnum}}
+    \input{tex/settings/settings_worship.tex}
+    \input{tex/main/worshiplist.tex}
+\end{songs}
