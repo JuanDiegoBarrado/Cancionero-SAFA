@@ -24,6 +24,18 @@
 	linkcolor=blue,
 }
 
+\usepackage[explicit]{titlesec}
+	%% Definición del estilo de los capítulos, secciones, etc...
+	\titleformat{\part}[display]
+	{\normalfont\Huge\bfseries\centering}
+	{\partname~\thepart}{20pt}
+	{\Huge}
+	\titlespacing*{\part}{0pt}{0pt}{40pt} % Elimina espacio vertical extra
+    \titleformat{\chapter}[display]{\normalfont\huge\bfseries\color{capitulos}}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
+    \titleformat{\section}{\normalfont\Large\bfseries\color{secciones}}{}{0pt}{\uppercase{#1}}
+    \titleformat{\subsection}{\normalfont\large\bfseries\color{subsecciones}}{}{0pt}{\uline{#1}}
+    \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{subsubsecciones}}{}{0pt}{#1}
+
 % Paquete del cancionero en sí
 \usepackage[chorded]{songs}
 \newindex{canciones}{idxfile}								% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
