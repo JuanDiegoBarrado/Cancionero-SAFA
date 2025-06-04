@@ -15,7 +15,7 @@
 
 % Paquetes extra para funcionalidades adicionales
 \usepackage[dvipsnames]{xcolor}
-\usepackage{graphicx}
+\usepackage{graphicx} \graphicspath{{./images/}}
 \usepackage[spanish]{babel}
 \usepackage{fontspec}
 \usepackage[colorlinks=true]{hyperref}
@@ -26,10 +26,6 @@
 
 \usepackage[explicit]{titlesec}
 	%% Definición del estilo de los capítulos, secciones, etc...
-	\titleformat{\part}[display]
-	{\normalfont\Huge\bfseries\centering}
-	{\partname~\thepart}{20pt}
-	{\Huge}
 	\titlespacing*{\part}{0pt}{0pt}{40pt} % Elimina espacio vertical extra
     \titleformat{\chapter}[display]{\normalfont\huge\bfseries\color{capitulos}}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
     \titleformat{\section}{\normalfont\Large\bfseries\color{secciones}}{}{0pt}{\uppercase{#1}}
@@ -45,6 +41,7 @@
 
 % Variables
 \newcommand{\mantaineremail}{\href{mailto:jdbarradodaganzo@gmail.com}{jdbarradodaganzo@gmail.com}}
+\titleprefixword{}
 
 \begin{document}
 	% Title

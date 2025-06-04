@@ -7,52 +7,48 @@
 
 \begin{songs}{canciones}
     % File containing songs that will be included
-    \part{General}
-    \vspace{1cm}
-    \begin{center}
-    \includegraphics[width=0.4\textwidth]{mi-imagen.png}
-    \end{center}
+    \partwithimage{General}{dummy1.jpeg}
     \input{tex/settings/settings_general.tex}
     \input{tex/main/generallist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{canciones}
     \setcounter{songnum}{\thelastValue}
-    \part{Misa}
+    \partwithimage{Misa}{dummy2.jpeg}
     \input{tex/settings/settings_mass.tex}
     \input{tex/main/masslist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{canciones}
     \setcounter{songnum}{\thelastValue}
-    \part{Pascua}
+    \partwithimage{Pascua}{dummy3.jpeg}
     \input{tex/settings/settings_pascua.tex}
     \input{tex/main/pascualist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{canciones}
     \setcounter{songnum}{\thelastValue}
-    \part{Hno. Gabriel}
+    \partwithimage{Gabriel}{dummy4.jpeg}
     \input{tex/settings/settings_gabriel.tex}
     \input{tex/main/gabriellist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{canciones}
     \setcounter{songnum}{\thelastValue}
-    \part{María}
+    \partwithimage{María}{dummy5.jpeg}
     \input{tex/settings/settings_mary.tex}
     \input{tex/main/marylist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{canciones}
     \setcounter{songnum}{\thelastValue}
-    \part{Navidad}
+    \partwithimage{Navidad}{dummy2.jpeg}
     \input{tex/settings/settings_xmas.tex}
     \input{tex/main/xmaslist.tex}
     \setcounter{lastValue}{\thesongnum}
 \end{songs}
 \begin{songs}{aclamaciones}
-    \part{Aclamaciones}
+    \partwithimage{Aclamaciones}{dummy4.jpeg}
     \renewcommand{\thesongnum}{A\arabic{songnum}}
     \input{tex/settings/settings_worship.tex}
     \input{tex/main/worshiplist.tex}
