@@ -24,13 +24,14 @@
 	linkcolor=blue,
 }
 
+\usepackage{ulem} % para poder subrayar entornos especiales como las secciones
 \usepackage[explicit]{titlesec}
 	%% Definición del estilo de los capítulos, secciones, etc...
 	\titlespacing*{\part}{0pt}{0pt}{40pt} % Elimina espacio vertical extra
-    \titleformat{\chapter}[display]{\normalfont\huge\bfseries\color{capitulos}}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
-    \titleformat{\section}{\normalfont\Large\bfseries\color{secciones}}{}{0pt}{\uppercase{#1}}
-    \titleformat{\subsection}{\normalfont\large\bfseries\color{subsecciones}}{}{0pt}{\uline{#1}}
-    \titleformat{\subsubsection}{\normalfont\normalsize\bfseries\color{subsubsecciones}}{}{0pt}{#1}
+    \titleformat{\chapter}[display]{\normalfont\huge\bfseries}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
+    \titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{\uppercase{#1}}
+    \titleformat{\subsection}{\normalfont\large\bfseries}{}{0pt}{\uline{#1}}
+    \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0pt}{#1}
 
 % Paquete del cancionero en sí
 \usepackage[chorded]{songs}
@@ -50,16 +51,16 @@
 	%\renewcommand{\songsection}{\section}
 
 	% Frontmatter
-	% \frontmatter
-	% \setlength{\parindent}{0cm} % edicion de sangría
-	% \input{tex/frontmatter.tex}
+	\frontmatter
+	\setlength{\parindent}{0cm} % edicion de sangría
+	\input{tex/frontmatter.tex}
 
 	% Mainmatter
 	\mainmatter
 	%\chapter{Canciones}
 	\input{tex/mainmatter.tex}	
 
-	% % Endmatter
-	% \input{tex/backmatter.tex}
+	% Endmatter
+	\input{tex/backmatter.tex}
 
 \end{document}
