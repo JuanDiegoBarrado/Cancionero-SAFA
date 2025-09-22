@@ -23,7 +23,8 @@
 \usepackage[explicit]{titlesec}
 	%% Definición del estilo de los capítulos, secciones, etc...
 	\titlespacing*{\part}{0pt}{0pt}{40pt} % Elimina espacio vertical extra
-    \titleformat{\chapter}[display]{\normalfont\huge\bfseries}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
+	\titlespacing*{\chapter}{0pt}{0pt}{40pt} % Elimina espacio vertical extra
+    \titleformat{\chapter}[hang]{\normalfont\huge\bfseries}{}{0pt}{\Huge \uppercase{#1}}[\titlerule]
     \titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{\uppercase{#1}}
     \titleformat{\subsection}{\normalfont\large\bfseries}{}{0pt}{\uline{#1}}
     \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0pt}{#1}
