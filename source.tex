@@ -18,11 +18,6 @@
 \usepackage{graphicx} \graphicspath{{./images/}}
 \usepackage[spanish]{babel}
 \usepackage{fontspec}
-\usepackage[colorlinks=true]{hyperref}
-\hypersetup{
-	urlcolor=red,
-	linkcolor=blue,
-}
 
 \usepackage{ulem} % para poder subrayar entornos especiales como las secciones
 \usepackage[explicit]{titlesec}
@@ -32,13 +27,29 @@
     \titleformat{\section}{\normalfont\Large\bfseries}{}{0pt}{\uppercase{#1}}
     \titleformat{\subsection}{\normalfont\large\bfseries}{}{0pt}{\uline{#1}}
     \titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{}{0pt}{#1}
+	
+\usepackage[colorlinks=true]{hyperref}
+\hypersetup{
+	urlcolor=red,
+	linkcolor=blue,
+}
 
 % Paquete del cancionero en sí
 \usepackage[chorded]{songs}
-\newindex{canciones}{idxfile}								% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
-\indexsongsas{canciones}{\thesongnum\ (Pag.\ \thepage)}		% Formatea la apriencia del índice: número de canción (página)
+\newindex{canciones}{idxfile}									% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
+\indexsongsas{canciones}{\thesongnum\ (Pag.\ \thepage)}			% Formatea la apriencia del índice: número de canción (página)
 \newindex{aclamaciones}{idxfile2}								% Esto debe hacerse aquí para el índice (nombrevariable, nombrearchivo)
 \indexsongsas{aclamaciones}{\thesongnum\ (Pag.\ \thepage)}		% Formatea la apriencia del índice: número de canción (página)
+% Añadir enlaces al indice de canciones
+\renewcommand{\songtarget}[2]{
+	\typeout{SONGTARGET: param1 = #1 , param2 = #2}%
+	\hypertarget{#2.1}{\relax}
+}
+\renewcommand{\songlink}[2]{
+	\typeout{SONGLINK: param1 = #1 , param2 = #2}%
+	\hyperlink{#1}{#2}
+}
+
 
 % Variables
 \newcommand{\mantaineremail}{\href{mailto:jdbarradodaganzo@gmail.com}{jdbarradodaganzo@gmail.com}}
