@@ -27,7 +27,7 @@
             "name": "canciones",
             "command": "texlua",
             "args": [
-                "C:/Users/jdbar/AppData/Local/Programs/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
+                "%DIR%/scripts/songidx.lua", // copia local parcheada (pliega tildes al ordenar/agrupar el índice)
                 "%DIR%/build/idxfile.sxd", // this is the name of the index file
                 "%DIR%/build/idxfile.sbx"	 // this is the name of the index file
             ]
@@ -36,7 +36,7 @@
             "name": "aclamaciones",
             "command": "texlua",
             "args": [
-                "C:/Users/jdbar/AppData/Local/Programs/MiKTeX/scripts/songs/songidx.lua", // TODO this should be added to the path
+                "%DIR%/scripts/songidx.lua", // copia local parcheada (pliega tildes al ordenar/agrupar el índice)
                 "%DIR%/build/idxfile2.sxd", // this is the name of the index file
                 "%DIR%/build/idxfile2.sbx"	 // this is the name of the index file
             ]
