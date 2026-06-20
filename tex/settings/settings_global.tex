@@ -1,0 +1,13 @@
+\newlength{\colwidth}
+\renewcommand{\idxrefsfont}{\Large}
+\renewcommand{\idxtitlefont}{\large}
+\renewcommand{\capo}[1]{\textbf{Cejilla: #1}}
+\newcommand{\partwithimage}[2]{%
+  \clearpage
+  \thispagestyle{empty} % sin encabezado/footers
+  \vspace*{2cm}
+  {\centering \Huge\bfseries #1\par}
+  \vspace{2cm}
+  {\centering \includegraphics[width=0.6\textwidth]{#2}\par}
+  \clearpage
+}
